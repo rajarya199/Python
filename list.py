@@ -9,7 +9,7 @@ print(fruits[:3]) #0,1,2
 print(fruits[2:]) # 2 to last
 print(fruits[-1]) #last
 
-#additem in list
+#add item in list
 #.append()
 fruits.append('grapes')
 print(fruits)
@@ -42,3 +42,36 @@ print(test)
 #del()
 del test
 #print(test)-
+
+# for loop
+fruits1=['apple','banana','guava','mango','orange']
+# x for no of iteration in fruits1
+for x in fruits1:
+    print(x)
+
+#arithmetic operator
+# +,-,*,/,%,//(floor division -no decimal point)
+    a=5//2
+print(a) # 2 (not 2.5)
+
+#assignment operator
+#+= -> x+=y is same as x= x+y
+#-=
+
+x=50
+y=20
+x+=y
+print(x)
+x-=10
+print(x)
+
+#comparision operator
+#<,<=,==,!=
+print(12<10)
+
+#logical operator
+#or,and,not
+a=15>10 and 10>12
+print(a)
+a=not(15>10 and 10>12)
+print(a)
